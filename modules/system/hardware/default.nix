@@ -7,9 +7,8 @@
 	...
 }: {
 	imports = [
-		./system
-		./home
-		./nix
+		./nvidia
 	];
 
+	hardware.parallels.enable = true;
 }
